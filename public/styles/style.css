@@ -70,4 +70,27 @@ form {
   .btn:hover {
     opacity: 0.7;
   }
+  .albums-back {
+    background-color: black;
+  }
+  .artist-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .artist-card {
+    display: flex;
+    flex-flow: column;
+    padding: 20px;
+    margin: 50px;
+    background-color: white;
+  }
+  .artist-pic {
+    width: 200px;
+  }
+  .artist-btn {
+    text-decoration: none;
+    color:  rgb(57, 134, 133);
+    padding: 10px;
+  }
 

@@ -6,13 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <h1>Showing the albums</h1>
+<body class="albums-back">
+   <div class="artist-info">
     {{#each albums}}
-    <h2>{{this.name}}</h2>
-    <img src="{{this.images.0.url}}" alt="">
-    <a href="/track-info/{{this.id}}"> View Tracks</a>
+    <div class="artist-card">
+        <h2>{{this.name}}</h2>
+        <img class="artist-pic" src="{{this.images.0.url}}" alt="">
+        <a class="artist-btn" href="/track-info/{{this.id}}"> View Tracks</a>
+    </div>
     {{/each}}
+   </div>
 
 </body>
 </html>
