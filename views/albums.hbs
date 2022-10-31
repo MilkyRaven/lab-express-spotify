@@ -7,12 +7,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello</h1>
-    {{#each artists}}
-    <img src="{{this.images.0.url}}" alt="">
-   
+    <h1>Showing the albums</h1>
+    {{#each albums}}
     <h2>{{this.name}}</h2>
-    <a href="./albums/{{this.id}}">Check Albums</a>
+    <img src="{{this.images.0.url}}" alt="">
     {{/each}}
+
 </body>
 </html>
