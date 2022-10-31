@@ -94,3 +94,17 @@ form {
     padding: 10px;
   }
 
+  .track-container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  .track-card {
+    display: flex;
+    flex-flow: column nowrap;
+    color: white;
+  }
+  .track-card > h3 {
+    padding: 15px;
+  }
+
